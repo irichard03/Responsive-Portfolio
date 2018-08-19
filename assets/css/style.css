@@ -80,6 +80,16 @@ h3{
     
 }
 
+#about{
+    width:960px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 590px;
+    overflow:hidden;
+}
+
 #message{
     width: 98%;    
     height: 25%;
@@ -269,15 +279,23 @@ p{
     #main{
         margin-left: 20px;
         margin-right: 400px;
-        width: 768px;
+        width: auto;
+        height: auto;
+    }
+
+    #about{
+        margin-left: 20px;
+        margin-right: 400px;
+        width: auto;
         height: auto;
     }
 
     #submain{
-        width: 768px;
+        width: auto;
         margin-left: 0px;
         margin-right: 0px;
         height: auto;
+        overflow: scroll;
     }
     h1{
         margin-left: 20px;
@@ -295,5 +313,24 @@ p{
         height: 125px;
         width: 125px;
         margin-left:10px;
+    }
+
+    #one{
+        width: auto;
+        
+    }
+
+    #two{
+        width: auto;
+    }
+
+    #three{
+        width: auto;
+    }
+
+    #projects{
+        width: auto;
+        height: auto;
+        
     }
 }
