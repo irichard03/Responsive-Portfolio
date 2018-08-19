@@ -10,6 +10,7 @@ a{
 
 body{
     margin:0px;
+    background-color:teal;
 }
 
 
@@ -33,6 +34,7 @@ form{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #bbbbbb;
     text-align: center;
+    z-index:2;
 }
 
 
@@ -164,7 +166,7 @@ p{
     position: absolute;
     margin-left: 25px;
     float: left;
-    z-index:1;
+    z-index:0;
 }
 
 
@@ -173,7 +175,7 @@ p{
     float: left;
     margin-left: 0px;
     margin-top: -52px;
-    z-index: 4;
+    z-index: 1;
     height: 32px;
     background-color: teal;
     width: 220px;
@@ -187,7 +189,7 @@ p{
     float: left;
     margin-left: 244px;
     margin-top: -52px;
-    z-index: 4;
+    z-index: 1;
     height: 32px;
     background-color: teal;
     width: 220px;
@@ -200,7 +202,7 @@ p{
     position: absolute;
     float: left;
     margin-left: 0px;
-    z-index: 4;
+    z-index: 1;
     margin-top: -52px;
     height: 36px;
     background-color: teal;
@@ -213,11 +215,10 @@ p{
 
 #animetag{
     margin-left: 244px;
-    z-index: 4;
     position: absolute;
     float: left;
     margin-top: -52px;
-    z-index: 4;
+    z-index: 1;
     height: 36px;
     background-color: teal;
     width: 220px;
@@ -229,27 +230,70 @@ p{
 
 #sargetag{
     margin-left: 0px;
-    z-index: 4;
     position: absolute;
     float: left;
     margin-top: -60px;
-    z-index: 4;
+    z-index: 1;
     height: 36px;
     background-color: teal;
     width: 220px;
     padding-top: 6px;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 
 @media only screen and (max-width: 640px) {
-
-}
-
-@media only screen and (max-width: 640px) {
-
+    body {
+        background-color: lightblue;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
 
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: lightblue;
+    }
+
+    #topperMid{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    #main{
+        margin-left: 20px;
+        margin-right: 400px;
+        width: 768px;
+        height: auto;
+    }
+
+    #submain{
+        width: 768px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+    }
+    h1{
+        margin-left: 20px;
+    }
+
+    h2{
+        width: 120px;
+    }
+
+    p{
+        width: 400px;
+    }
+
+    #selfie{
+        height: 125px;
+        width: 125px;
+        margin-left:10px;
+    }
 }
