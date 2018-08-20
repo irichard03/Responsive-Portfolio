@@ -10,9 +10,10 @@
 
     <body>
 
-        <header>
-        
+       <!-- Header has one class .navBar to style top navigation bar, h1 and links-->
+       <header>
             <nav>
+                    <div class="navBar">
                         <h1>Ian Richard</h1>
 
                         <a href="index.html">About</a>
@@ -20,8 +21,8 @@
                         <a href="portfolio.html">Portfolio</a>
                 
                         <a href="contact.html">Contact</a>
-            </nav>            
-
+                    </div>
+            </nav>
         </header>
 
 
@@ -30,30 +31,33 @@
 
             <h2>Contact</h2>
 
-
-                <form>
-                    
-                    <h3>Name</h3>
-                    <input id="name">
-                    
-                    <h3>Email</h3>
-                    <input id="email" placeholder="email@domain.com">
-
-                    
-                    <h3>Message</h3>
-                    <textarea id="message"></textarea>
-                    
-                    <input id="submit" type="submit" value="Submit">
-                    
-                </form>        
+                <div id="contactMe">
+                    <form>
+                        
+                        <h3>Name</h3>
+                        <input id="name">
+                        
+                        <h3>Email</h3>
+                        <input id="email" placeholder="email@domain.com">
+                        
+                        <h3>Message</h3>
+                        <textarea id="message"></textarea>
+                        
+                        <input id="submit" type="submit" value="Submit">
+                        
+                    </form>
+                </div>        
 
         </section>
     
 
+        <!-- Footer is fixed to bottom of page-->
         <footer>
 
-        
-        </footer>
+            <h3>Copyright&copy;</h3>
+    
+        </footer>    
+    
 
     </body>
 

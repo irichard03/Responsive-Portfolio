@@ -7,8 +7,8 @@ h1 {
    width: 25%;
    float: left;
    margin:0px;
-   height: 40px;
-   padding-top: 20px;
+   height: 2.0rem;
+   padding-top: 1.5rem;
    text-align: center;
    color: white;
    font-family: 'Georgia', Times, Times New Roman, serif;
@@ -34,6 +34,15 @@ a {
     margin-right: 3rem;
     border-top: solid .20rem lightgray;
     padding-top: 1rem;
+}
+
+#contactMe{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-top: solid .20rem lightgray;
+    padding-top: 1rem;
+    display: block;
+    
 }
 
 footer {
@@ -66,11 +75,29 @@ h3 {
     padding-bottom: .5rem;
 }
 
+#message {
+    width: 98%;    
+    height: 25%;
+    margin: 0px 0px 20px 0px;
+    border: solid 1px #cccccc;
+    outline: none;
+    resize: vertical;
+    overflow: auto;
+}
+
+#name, #email {
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom: 5px;
+    width: 98%;
+    border:solid 1px #cccccc;
+}
+
 nav {
     background-color: white;
     width: 100%;
     position: static top;
-    height: 60px;
+    height: 3.5rem;
 }
 
 .navBar {
@@ -89,6 +116,7 @@ section {
     margin-bottom: auto;
     height: auto;
     overflow: auto;
+    padding-bottom: 1.0rem;
 }
 
 #selfie {
