@@ -211,11 +211,14 @@ p {
     p {
        width: auto;
        margin-top: 0px;
-       
+       float: left;
+       margin-left: 0px;
     }
 
     #wrapShame {
-        width: 200px;
+        float: left;
+        width: auto;
+        margin-left: 0px;
     }
 }
 
@@ -226,13 +229,13 @@ p {
         align-content: center;
         margin-right: auto;
         margin-left: auto;
-        background-color: red;
+        background-color: white;
     }
 
 
     #aboutMe{
         overflow: scroll;
-        background-color: blue;
+        background-color:white;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -241,18 +244,60 @@ p {
 }
 
 @media only screen and (max-width: 640px) {
-   #selfie {
-       width: 200px;
+   #aboutMe{
+       padding: 0px 0px 20px 0px;
+       overflow: scroll;
+       
+       
    }
    
-    #wrapshame {
-       width: 300px; 
-       display: block;
-       margin: auto;
+    #selfie {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 40px;
+        margin-left: 100px;
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+        position: relative;
    }
    
-   p {
-       width: 300px;
-       display: block;
+   nav{
+       display: inline-block;
+       width: 100%;
+       height: 100px;
+       margin-right: 0px;
+       margin-left: 0px;
+
+   }
+
+   .navBar{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+   }
+
+   a {
+       width: 33%;
+       margin-left:0px;
+       margin-right:0px;
+       background-color: white;
+       display:inline-block;
+   }
+
+   h1{
+       display: inline-block;
+       width: 100%;
+       margin-right: 0px;
+       margin-left: 0px;
+   }
+
+   #portfolioPictures {
+       margin-left: 20%;
+       margin-right: 20%;
+   }
+
+   .hidden {
+       display: none;
    }
 }
