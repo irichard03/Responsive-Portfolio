@@ -3,15 +3,6 @@ body {
     width: 100%;
 }
 
-.projectLink {
-    height: 160px;
-    width: 160px;
-    margin: 16px 16px 16px 16px;
-    position: relative; 
-
-}
-
-
 h1 {
    width: 236px;
    float: left;
@@ -59,7 +50,6 @@ a {
 .container {
     display:inline-block;
     margin-left: 20px;
-    margin-right: 20px;
     
 }
 
@@ -329,10 +319,9 @@ p {
    .container{
        width: 100%;
        display: inline-block;
-       margin-left: 40px;
+       margin-left: 160px;
        height: 100%;
    }
 
-   
  
 }
